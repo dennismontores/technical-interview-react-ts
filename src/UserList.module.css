@@ -1,0 +1,14 @@
+.Table {
+  width: 90%;
+
+  & td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  & td:has(img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
